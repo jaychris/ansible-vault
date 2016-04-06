@@ -1,3 +1,6 @@
+# Updates
+- uses app-id authentication; takes "VAULT_APP_ID" and "VAULT_USER_ID" as env variables.  If VAULT_USER_ID is not set, it defaults to using the system uuid
+
 # ansible-vault lookup module
 This is a lookup module for secrets stored in [HashiCorp Vault](https://vaultproject.io/).
 
