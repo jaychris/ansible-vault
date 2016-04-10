@@ -3,7 +3,6 @@ import urllib2
 import json
 import sys
 import hvac
-from urlparse import urljoin
 from subprocess import check_output
 
 from ansible.errors import AnsibleError
